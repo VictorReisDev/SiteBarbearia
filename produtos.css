@@ -1,0 +1,180 @@
+body{
+    background: url("imgs/background2.jpg");
+    opacity: 0.8;
+    background-size: 100%;
+}
+
+header{
+    background: url("imgs/background1.jpg");
+    padding: 15px 0;
+    border-style: solid;
+    border-width: 10px;
+    border-image: linear-gradient(100deg, #CCCCCC, #000000) 1;
+}
+
+
+.caixa{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.caixa img{
+    height: 250px;
+    width:auto;
+}
+
+.caixa strong {
+    top: 110px;
+    right: 40px;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+
+}
+
+nav li{
+    display: inline;
+    margin-left:15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color:black;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+
+}
+
+nav a:hover{
+    color:rgb(216, 216, 14);
+    font-size: 24px;
+}
+
+main{
+    color:#ffffff;
+}
+
+.titulo{
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-left:1.5%;
+    font-weight:bold;
+    font-size: 30px;
+}
+
+.produtos{
+    width: 940px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+
+.produtos li{
+    display: inline-block;
+    vertical-align:top;
+    width: 30%;
+    padding: 30px 10px;
+    text-align: center;
+    margin: 0 1.5%;
+    box-sizing: border-box;
+    border: 2px solid #cccccc;
+    border-top-width: 10px;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
+.produtos li:hover{
+    border-color:rgb(216, 216, 14);
+    padding: 50px 10px;
+}
+
+.produtos li:active{
+    border-color: green;
+}
+
+
+.produtos li h3{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.produtos li:hover h3 {
+    font-size: 32px;
+}
+
+
+
+.produto-descricao{
+    font-size: 18px;
+}
+
+
+
+.produto-preco{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.caixamapa{
+    width: 940px;
+    margin: 0 auto;    
+
+}
+
+
+.mapa{
+
+    margin-left:1.5%;
+    /* margin-top: 10px; */
+    box-sizing: border-box;
+    display: inline-block;
+    padding: 30px 5px;
+    height: 400px;
+    width: 97%;
+    
+}
+
+
+#whatsapp-button{
+    background-image: url(https://i.ibb.co/RvTJC4r/whatsapp.png); 
+    border-radius: 34px;
+    width: 60px; 
+    font-size: 0; 
+    height: 60px;
+    position: fixed;
+    right: 30px;
+    z-index: 999;
+    display: block;
+    bottom: 10px;
+    background-size: 73%;
+    background-repeat: no-repeat;
+    background-color: #1bd741;
+    background-position: center;
+}
+
+footer {
+    text-align: center;
+    color: black;
+    padding: 30px 0;
+    background: url("imgs/background1.jpg");
+    border-image: linear-gradient(100deg, #000000, #CCCCCC) 1; 
+}
+
+footer img{
+    height: 250px;
+    width:auto;
+}
+
+footer p{
+    font-size:10px;
+}
+/* .cabelo img{
+    background-image: black;
+} */
